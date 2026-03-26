@@ -16,7 +16,7 @@ func _enter_tree() -> void:
 	if ProjectSettings.has_setting("version_bumper/display_mode"):
 		current_mode = ProjectSettings.get_setting("version_bumper/display_mode")
 	else:
-		ProjectSettings.set_setting("version_bumper/display_mode", DisplayMode.DOCK)
+		ProjectSettings.set_setting("version_bumper/display_mode", DisplayMode.EMBED_TOP)
 
 	menu = PopupMenu.new()
 	menu.add_radio_check_item("Embed Top", DisplayMode.EMBED_TOP)

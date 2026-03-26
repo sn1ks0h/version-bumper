@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Version Bumper"
-config/version="1.2.2"
+config/version="1.2.3"
 config/tags=PackedStringArray("addon")
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="uid://c5bdhamjje1qm"
@@ -26,4 +26,4 @@ rendering_device/driver.windows="d3d12"
 
 [version_bumper]
 
-display_mode=1
+display_mode=0
